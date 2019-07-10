@@ -77,9 +77,9 @@ public class MiServlet extends HttpServlet {
       String nombre = request.getParameter("nombre");
       Tarea tar = new Tarea();
       tar.setNombre(nombre);
-      tar.setIdentificacion(identificacion);
+      //tar.setIdentificacion(identificacion);
       
-      JavaBeanTarea jbtar = new JavaBeanTarea();
+     // JavaBeanTarea jbtar = new JavaBeanTarea();
       jbtar.guardar(tar);
       
       
