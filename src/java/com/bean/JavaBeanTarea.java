@@ -22,7 +22,7 @@ public class JavaBeanTarea {
             tareaControl = new TareaJpaController(emf);
         }
         public void guardar(Tarea tarea){
-            tareaControl.create(tarea);
+            //tareaControl.create(tarea);
         }
     }
         
